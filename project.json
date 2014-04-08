@@ -1,0 +1,18 @@
+{
+  "versions": [
+    "HEAD",
+    "stable-0.9.0",
+    "stable-0.8.0",
+    "stable-0.7.0",
+    "stable-0.6.0",
+    "stable-0.5.0",
+    "stable-0.4.0",
+    "stable-0.3.0"
+  ],
+  "github": "jameswalmsley/bitthunder",
+  "name": "BitThunder",
+  "signatures": {
+  },
+  "groups": {
+  }
+}
