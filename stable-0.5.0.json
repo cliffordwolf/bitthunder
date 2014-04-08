@@ -1,8 +1,3503 @@
 {
   "files": [
+    {
+      "file": "machines/bt_machines.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        "",
+        "BT_GetCpuClockFrequency"
+      ],
+      "lines": 57
+    },
+    {
+      "file": "bt_kernel.h",
+      "meta": {
+      },
+      "functions": [
+        "void",
+        "BT_kStartScheduler",
+        "BT_kTaskCreate",
+        "BT_kTaskDelete",
+        "BT_kTickCount",
+        "BT_kTaskDelay",
+        "BT_kTaskDelayUntil",
+        "BT_kTaskYield",
+        "BT_kGetThreadTag",
+        "BT_kSetThreadTag",
+        "BT_kMutexCreate",
+        "BT_kMutexDestroy",
+        "BT_kMutexPend",
+        "BT_kMutexRelease",
+        "BT_kMutexReleaseFromISR",
+        "BT_kEnterCritical",
+        "BT_kExitCritical"
+      ],
+      "lines": 29
+    },
+    {
+      "file": "process/bt_threads.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_ERROR",
+        "BT_CreateThread",
+        "BT_CreateProcessThread",
+        "BT_GetThreadHandle",
+        "BT_GetThreadProcessHandle",
+        "BT_ThreadSleepUntil",
+        "BT_ThreadSleep",
+        "BT_ThreadYield"
+      ],
+      "lines": 30
+    },
+    {
+      "file": "process/bt_mutex.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_CreateMutex",
+        "BT_PendMutex",
+        "BT_ReleaseMutex",
+        "BT_ReleaseMutexFromISR"
+      ],
+      "lines": 11
+    },
+    {
+      "file": "process/bt_process.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_GetProcessHandle",
+        "BT_GetProcessThreadList"
+      ],
+      "lines": 17
+    },
+    {
+      "file": "timers/bt_timers.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_SetSystemTimerHandle",
+        "BT_GetSystemTimerOffset",
+        "BT_GetKernelTime",
+        "BT_GetKernelTick"
+      ],
+      "lines": 16
+    },
+    {
+      "file": "mm/bt_heap.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_kMalloc",
+        "BT_kFree"
+      ],
+      "lines": 8
+    },
+    {
+      "file": "devman/bt_block.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_RegisterBlockDevice",
+        "BT_BlockRead",
+        "BT_BlockWrite"
+      ],
+      "lines": 21
+    },
+    {
+      "file": "devman/bt_resource.h",
+      "meta": {
+      },
+      "functions": [
 
+      ],
+      "lines": 37
+    },
+    {
+      "file": "devman/bt_devman.h",
+      "meta": {
+      },
+      "functions": [
+        "const BT_IF_HANDLE \t   ",
+        "BT_ERROR",
+        "BT_GetMachineDescription",
+        "BT_GetIntergratedDeviceByName",
+        "BT_GetIntegratedDriverByName",
+        "BT_ProbeIntegratedDevices"
+      ],
+      "lines": 36
+    },
+    {
+      "file": "devman/bt_integrated_device.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_RESOURCE BT_GetIntegratedResource"
+      ],
+      "lines": 20
+    },
+    {
+      "file": "devman/bt_integrated_driver.h",
+      "meta": {
+      },
+      "functions": [
+        ""
+      ],
+      "lines": 16
+    },
+    {
+      "file": "interfaces/bt_if_file.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "lines": 37
+    },
+    {
+      "file": "interfaces/bt_dev_if_uart.h",
+      "meta": {
+      },
+      "functions": [
+        "struct { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "BT_UartSetBaudrate",
+        "BT_UartSetConfiguration",
+        "BT_UartGetConfiguration",
+        "BT_UartEnable",
+        "BT_UartDisable"
+      ],
+      "lines": 61
+    },
+    {
+      "file": "interfaces/bt_dev_if_gpio.h",
+      "meta": {
+      },
+      "functions": [
+        "struct _BT_DEV_IF_GPIO { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "lines": 17
+    },
+    {
+      "file": "interfaces/bt_if_block.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        ""
+      ],
+      "lines": 27
+    },
+    {
+      "file": "interfaces/bt_if_device.h",
+      "meta": {
+      },
+      "functions": [
+
+      ],
+      "lines": 78
+    },
+    {
+      "file": "interfaces/bt_if_power.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        "",
+        "BT_SetPowerState",
+        "BT_GetPowerState"
+      ],
+      "lines": 25
+    },
+    {
+      "file": "interfaces/bt_dev_if_can.h",
+      "meta": {
+      },
+      "functions": [
+        "struct { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BT_CanSetBaudrate",
+        "BT_CanSetConfiguration",
+        "BT_CanGetConfiguration",
+        "BT_CanEnable",
+        "BT_CanDisable",
+        "BT_CanSendMessage",
+        "BT_CanReadMessage"
+      ],
+      "lines": 45
+    },
+    {
+      "file": "interfaces/bt_if_chardev.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BT_CharDeviceRead",
+        "BT_CharDeviceWrite"
+      ],
+      "lines": 21
+    },
+    {
+      "file": "interfaces/bt_dev_if_timer.h",
+      "meta": {
+      },
+      "functions": [
+        "void",
+        "struct _BT_DEV_IF_TIMER { BT_u32",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BT_TimerStart",
+        "BT_TimerStop",
+        "BT_TimerSetConfiguration",
+        "BT_TimerGetConfiguration",
+        "BT_TimerEnableInterrupt",
+        "BT_TimerDisableInterrupt",
+        "BT_TimerRegisterCallback",
+        "BT_TimerUnregisterCallback",
+        "BT_TimerGetPrescaler",
+        "BT_TimerSetPrescaler",
+        "BT_TimerGetPeriodCount",
+        "BT_TimerSetPeriodCount",
+        "BT_TimerSetFrequency",
+        "BT_TimerGetFrequency",
+        "BT_TimerEnableReload",
+        "BT_TimerDisableReload",
+        "BT_TimerGetValue",
+        "BT_TimerSetValue",
+        "BT_TimerExpired"
+      ],
+      "lines": 57
+    },
+    {
+      "file": "interfaces/bt_dev_if_systimer.h",
+      "meta": {
+      },
+      "functions": [
+        "struct _BT_DEV_IF_SYSTIMER { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "lines": 19
+    },
+    {
+      "file": "interfaces/bt_dev_if_sdio.h",
+      "meta": {
+      },
+      "functions": [
+        "struct _BT_DEV_IF_SDIO { BT_ERROR"
+      ],
+      "lines": 10
+    },
+    {
+      "file": "interfaces/bt_dev_if_irq.h",
+      "meta": {
+      },
+      "functions": [
+        "struct _BT_DEV_IF_IRQ { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "lines": 19
+    },
+    {
+      "file": "interrupts/bt_tasklets.h",
+      "meta": {
+      },
+      "functions": [
+        "void",
+        "BT_TaskletSchedule",
+        "BT_TaskletHighSchedule"
+      ],
+      "lines": 34
+    },
+    {
+      "file": "interrupts/bt_interrupts.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_ERROR",
+        "BT_RegisterInterruptController",
+        "BT_RegisterInterrupt",
+        "BT_UnregisterInterrupt",
+        "BT_SetInterruptPriority",
+        "BT_GetInterruptPriority",
+        "BT_EnableInterrupt",
+        "BT_DisableInterrupt",
+        "BT_SetInterruptAffinity"
+      ],
+      "lines": 36
+    },
+    {
+      "file": "interrupts/bt_softirq.h",
+      "meta": {
+      },
+      "functions": [
+        "void",
+        "BT_OpenSoftIRQ",
+        "BT_RaiseSoftIRQ",
+        "BT_RaiseSoftIRQFromISR"
+      ],
+      "lines": 38
+    },
+    {
+      "file": "bt_export.h",
+      "meta": {
+      },
+      "functions": [
+
+      ],
+      "lines": 16
+    },
+    {
+      "file": "fs/fullfat/ff.config.h",
+      "meta": {
+      },
+      "functions": [
+
+      ],
+      "lines": 35
+    },
+    {
+      "file": "fs/bt_devfs.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        "BT_DeviceOpen",
+        "BT_DeviceRegister"
+      ],
+      "lines": 35
+    },
+    {
+      "file": "gpio/bt_gpio.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_RegisterGpioController",
+        "BT_GpioSet",
+        "BT_GpioGet",
+        "BT_GpioSetDirection",
+        "BT_GpioGetDirection",
+        "BT_GpioEnableInterrupt",
+        "BT_GpioDisableInterrupt"
+      ],
+      "lines": 26
+    },
+    {
+      "file": "lib/printf.h",
+      "meta": {
+      },
+      "functions": [
+        "bt_kvprintf",
+        "bt_printf"
+      ],
+      "lines": 14
+    },
+    {
+      "file": "lib/ctype.h",
+      "meta": {
+      },
+      "functions": [
+
+      ],
+      "lines": 64
+    },
+    {
+      "file": "lib/putc.h",
+      "meta": {
+      },
+      "functions": [
+        "bt_putc",
+        "BT_GetStandardHandle",
+        "BT_SetStandardHandle"
+      ],
+      "lines": 15
+    },
+    {
+      "file": "syslog/bt_printk.h",
+      "meta": {
+      },
+      "functions": [
+        "BT_kPrint"
+      ],
+      "lines": 17
+    },
+    {
+      "file": "bt_os.h",
+      "meta": {
+      },
+      "functions": [
+
+      ],
+      "lines": 19
+    },
+    {
+      "file": "module/bt_module_init.h",
+      "meta": {
+      },
+      "functions": [
+        "",
+        "BT_InitialiseKernelModules"
+      ],
+      "lines": 14
+    }
   ],
   "functions": {
+    "": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnInit",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnInit",
+      "file": "module/bt_module_init.h",
+      "line": 6,
+      "lineto": 6,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "module_bt_module_init.h"
+    },
+    "BT_GetCpuClockFrequency": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "machines/bt_machines.h",
+      "line": 55,
+      "lineto": 55,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "machines_bt_machines.h"
+    },
+    "void": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*BT_SOFTIRQ_HANDLER",
+          "comment": ""
+        }
+      ],
+      "argline": "*BT_SOFTIRQ_HANDLER",
+      "file": "interrupts/bt_softirq.h",
+      "line": 27,
+      "lineto": 27,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interrupts_bt_softirq.h"
+    },
+    "BT_kStartScheduler": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "bt_kernel.h",
+      "line": 9,
+      "lineto": 9,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kTaskCreate": {
+      "description": "",
+      "return": {
+        "type": "void*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_FN_TASK_ENTRY",
+          "name": "pfnStartRoutine",
+          "comment": ""
+        },
+        {
+          "type": "const BT_i8 *",
+          "name": "szpName",
+          "comment": ""
+        },
+        {
+          "type": "BT_THREAD_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_FN_TASK_ENTRY pfnStartRoutine, const BT_i8 *szpName, BT_THREAD_CONFIG *pConfig, BT_ERROR *pError",
+      "file": "bt_kernel.h",
+      "line": 10,
+      "lineto": 10,
+      "comments": "",
+      "sig": "BT_FN_TASK_ENTRY::const BT_i8 *::BT_THREAD_CONFIG *::BT_ERROR *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kTaskDelete": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pTaskHandle",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pTaskHandle",
+      "file": "bt_kernel.h",
+      "line": 11,
+      "lineto": 11,
+      "comments": "",
+      "sig": "void *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kTickCount": {
+      "description": "",
+      "return": {
+        "type": "BT_TICK",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "bt_kernel.h",
+      "line": 13,
+      "lineto": 13,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kTaskDelay": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_TICK",
+          "name": "ulTicks",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_TICK ulTicks",
+      "file": "bt_kernel.h",
+      "line": 14,
+      "lineto": 14,
+      "comments": "",
+      "sig": "BT_TICK",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kTaskDelayUntil": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_TICK *",
+          "name": "pulPreviousWakeTime",
+          "comment": ""
+        },
+        {
+          "type": "BT_TICK",
+          "name": "ulTimeIncrement",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_TICK *pulPreviousWakeTime, BT_TICK ulTimeIncrement",
+      "file": "bt_kernel.h",
+      "line": 15,
+      "lineto": 15,
+      "comments": "",
+      "sig": "BT_TICK *::BT_TICK",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kTaskYield": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "bt_kernel.h",
+      "line": 16,
+      "lineto": 16,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kGetThreadTag": {
+      "description": "",
+      "return": {
+        "type": "void*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pThreadID",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pThreadID",
+      "file": "bt_kernel.h",
+      "line": 17,
+      "lineto": 17,
+      "comments": "",
+      "sig": "void *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kSetThreadTag": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pThreadID",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pTagData",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pThreadID, void *pTagData",
+      "file": "bt_kernel.h",
+      "line": 18,
+      "lineto": 18,
+      "comments": "",
+      "sig": "void *::void *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kMutexCreate": {
+      "description": "",
+      "return": {
+        "type": "void*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "bt_kernel.h",
+      "line": 20,
+      "lineto": 20,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kMutexDestroy": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pMutex",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pMutex",
+      "file": "bt_kernel.h",
+      "line": 21,
+      "lineto": 21,
+      "comments": "",
+      "sig": "void *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kMutexPend": {
+      "description": "",
+      "return": {
+        "type": "BT_BOOL",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pMutex",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulTimeout",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pMutex, BT_u32 ulTimeout",
+      "file": "bt_kernel.h",
+      "line": 22,
+      "lineto": 22,
+      "comments": "",
+      "sig": "void *::BT_u32",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kMutexRelease": {
+      "description": "",
+      "return": {
+        "type": "BT_BOOL",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pMutex",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pMutex",
+      "file": "bt_kernel.h",
+      "line": 23,
+      "lineto": 23,
+      "comments": "",
+      "sig": "void *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kMutexReleaseFromISR": {
+      "description": "",
+      "return": {
+        "type": "BT_BOOL",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "pMutex",
+          "comment": ""
+        },
+        {
+          "type": "BT_BOOL *",
+          "name": "pbHigherPriorityTaskWoken",
+          "comment": ""
+        }
+      ],
+      "argline": "void *pMutex, BT_BOOL *pbHigherPriorityTaskWoken",
+      "file": "bt_kernel.h",
+      "line": 24,
+      "lineto": 24,
+      "comments": "",
+      "sig": "void *::BT_BOOL *",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kEnterCritical": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+
+      ],
+      "argline": "",
+      "file": "bt_kernel.h",
+      "line": 26,
+      "lineto": 26,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_kExitCritical": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+
+      ],
+      "argline": "",
+      "file": "bt_kernel.h",
+      "line": 27,
+      "lineto": 27,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "bt_kernel.h"
+    },
+    "BT_ERROR": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*BT_FN_INTERRUPT_HANDLER",
+          "comment": ""
+        }
+      ],
+      "argline": "*BT_FN_INTERRUPT_HANDLER",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 8,
+      "lineto": 8,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_CreateThread": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_FN_THREAD_ENTRY",
+          "name": "pfnStartRoutine",
+          "comment": ""
+        },
+        {
+          "type": "BT_THREAD_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_FN_THREAD_ENTRY pfnStartRoutine, BT_THREAD_CONFIG *pConfig, BT_ERROR *pError",
+      "file": "process/bt_threads.h",
+      "line": 20,
+      "lineto": 20,
+      "comments": "",
+      "sig": "BT_FN_THREAD_ENTRY::BT_THREAD_CONFIG *::BT_ERROR *",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_CreateProcessThread": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hProcess",
+          "comment": ""
+        },
+        {
+          "type": "BT_FN_THREAD_ENTRY",
+          "name": "pfnStartRoutine",
+          "comment": ""
+        },
+        {
+          "type": "BT_THREAD_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hProcess, BT_FN_THREAD_ENTRY pfnStartRoutine, BT_THREAD_CONFIG *pConfig, BT_ERROR *pError",
+      "file": "process/bt_threads.h",
+      "line": 21,
+      "lineto": 21,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_FN_THREAD_ENTRY::BT_THREAD_CONFIG *::BT_ERROR *",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_GetThreadHandle": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "process/bt_threads.h",
+      "line": 23,
+      "lineto": 23,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_GetThreadProcessHandle": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hThread",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hThread",
+      "file": "process/bt_threads.h",
+      "line": 24,
+      "lineto": 24,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_ThreadSleepUntil": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_TICK *",
+          "name": "pulPreviousWakeTime",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulTimeMs",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_TICK *pulPreviousWakeTime, BT_u32 ulTimeMs",
+      "file": "process/bt_threads.h",
+      "line": 26,
+      "lineto": 26,
+      "comments": "",
+      "sig": "BT_TICK *::BT_u32",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_ThreadSleep": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulTimeMs",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulTimeMs",
+      "file": "process/bt_threads.h",
+      "line": 27,
+      "lineto": 27,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_ThreadYield": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "process/bt_threads.h",
+      "line": 28,
+      "lineto": 28,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "process_bt_threads.h"
+    },
+    "BT_CreateMutex": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_ERROR *pError",
+      "file": "process/bt_mutex.h",
+      "line": 4,
+      "lineto": 4,
+      "comments": "",
+      "sig": "BT_ERROR *",
+      "rawComments": "",
+      "group": "process_bt_mutex.h"
+    },
+    "BT_PendMutex": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hMutex",
+          "comment": ""
+        },
+        {
+          "type": "BT_TICK",
+          "name": "oTimeoutTicks",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hMutex, BT_TICK oTimeoutTicks",
+      "file": "process/bt_mutex.h",
+      "line": 5,
+      "lineto": 5,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_TICK",
+      "rawComments": "",
+      "group": "process_bt_mutex.h"
+    },
+    "BT_ReleaseMutex": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hMutex",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hMutex",
+      "file": "process/bt_mutex.h",
+      "line": 6,
+      "lineto": 6,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "process_bt_mutex.h"
+    },
+    "BT_ReleaseMutexFromISR": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hMutex",
+          "comment": ""
+        },
+        {
+          "type": "BT_BOOL *",
+          "name": "pbHigherPriorityThreadWoken",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hMutex, BT_BOOL *pbHigherPriorityThreadWoken",
+      "file": "process/bt_mutex.h",
+      "line": 7,
+      "lineto": 7,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_BOOL *",
+      "rawComments": "",
+      "group": "process_bt_mutex.h"
+    },
+    "BT_GetProcessHandle": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "process/bt_process.h",
+      "line": 4,
+      "lineto": 4,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "process_bt_process.h"
+    },
+    "BT_GetProcessThreadList": {
+      "description": "",
+      "return": {
+        "type": "BT_LIST*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hProcess",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hProcess",
+      "file": "process/bt_process.h",
+      "line": 8,
+      "lineto": 8,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "process_bt_process.h"
+    },
+    "BT_SetSystemTimerHandle": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "timers/bt_timers.h",
+      "line": 6,
+      "lineto": 6,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "timers_bt_timers.h"
+    },
+    "BT_GetSystemTimerOffset": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "timers/bt_timers.h",
+      "line": 8,
+      "lineto": 8,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "timers_bt_timers.h"
+    },
+    "BT_GetKernelTime": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "timers/bt_timers.h",
+      "line": 10,
+      "lineto": 10,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "timers_bt_timers.h"
+    },
+    "BT_GetKernelTick": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "void",
+          "comment": ""
+        }
+      ],
+      "argline": "void",
+      "file": "timers/bt_timers.h",
+      "line": 11,
+      "lineto": 11,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "timers_bt_timers.h"
+    },
+    "BT_kMalloc": {
+      "description": "",
+      "return": {
+        "type": "void*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulSize",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulSize",
+      "file": "mm/bt_heap.h",
+      "line": 4,
+      "lineto": 4,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "mm_bt_heap.h"
+    },
+    "BT_kFree": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "void *",
+          "name": "p",
+          "comment": ""
+        }
+      ],
+      "argline": "void *p",
+      "file": "mm/bt_heap.h",
+      "line": 5,
+      "lineto": 5,
+      "comments": "",
+      "sig": "void *",
+      "rawComments": "",
+      "group": "mm_bt_heap.h"
+    },
+    "BT_RegisterBlockDevice": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hDevice",
+          "comment": ""
+        },
+        {
+          "type": "const char *",
+          "name": "szpName",
+          "comment": ""
+        },
+        {
+          "type": "BT_BLKDEV_DESCRIPTOR *",
+          "name": "pDescriptor",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hDevice, const char *szpName, BT_BLKDEV_DESCRIPTOR *pDescriptor",
+      "file": "devman/bt_block.h",
+      "line": 16,
+      "lineto": 16,
+      "comments": "",
+      "sig": "BT_HANDLE::const char *::BT_BLKDEV_DESCRIPTOR *",
+      "rawComments": "",
+      "group": "devman_bt_block.h"
+    },
+    "BT_BlockRead": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hBlock",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulAddress",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulBlocks",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pBuffer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hBlock, BT_u32 ulAddress, BT_u32 ulBlocks, void *pBuffer, BT_ERROR *pError",
+      "file": "devman/bt_block.h",
+      "line": 18,
+      "lineto": 18,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32::BT_u32::void *::BT_ERROR *",
+      "rawComments": "",
+      "group": "devman_bt_block.h"
+    },
+    "BT_BlockWrite": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hBlock",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulAddress",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulBlocks",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pBuffer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hBlock, BT_u32 ulAddress, BT_u32 ulBlocks, void *pBuffer, BT_ERROR *pError",
+      "file": "devman/bt_block.h",
+      "line": 19,
+      "lineto": 19,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32::BT_u32::void *::BT_ERROR *",
+      "rawComments": "",
+      "group": "devman_bt_block.h"
+    },
+    "const BT_IF_HANDLE \t   ": {
+      "description": "",
+      "return": {
+        "type": "typedef*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*BT_MODULE_GETIF_FN",
+          "comment": ""
+        }
+      ],
+      "argline": "*BT_MODULE_GETIF_FN",
+      "file": "devman/bt_devman.h",
+      "line": 1,
+      "lineto": 16,
+      "comments": "BlueThunder - Device Manager",
+      "sig": "",
+      "rawComments": "BlueThunder - Device Manager",
+      "group": "devman_bt_devman.h"
+    },
+    "BT_GetMachineDescription": {
+      "description": "",
+      "return": {
+        "type": "BT_MACHINE_DESCRIPTION*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_ERROR *pError",
+      "file": "devman/bt_devman.h",
+      "line": 26,
+      "lineto": 30,
+      "comments": "#define BT_MODULE_ENTRY(entry) \t\t   BT_ATTRIBUTE_SECTION(\".bt.module.entries\") \t\\\nstatic const BT_MODULE_ENTRY_DESCRIPTOR *pModuleEntry = &entry;*/",
+      "sig": "BT_ERROR *",
+      "rawComments": "#define BT_MODULE_ENTRY(entry) \t\t   BT_ATTRIBUTE_SECTION(\".bt.module.entries\") \t\\\nstatic const BT_MODULE_ENTRY_DESCRIPTOR *pModuleEntry = &entry;*/",
+      "group": "devman_bt_devman.h"
+    },
+    "BT_GetIntergratedDeviceByName": {
+      "description": "",
+      "return": {
+        "type": "BT_INTEGRATED_DEVICE*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "const BT_i8 *",
+          "name": "szpName",
+          "comment": ""
+        }
+      ],
+      "argline": "const BT_i8 *szpName",
+      "file": "devman/bt_devman.h",
+      "line": 31,
+      "lineto": 31,
+      "comments": "",
+      "sig": "const BT_i8 *",
+      "rawComments": "",
+      "group": "devman_bt_devman.h"
+    },
+    "BT_GetIntegratedDriverByName": {
+      "description": "",
+      "return": {
+        "type": "BT_INTEGRATED_DRIVER*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "const BT_i8 *",
+          "name": "szpName",
+          "comment": ""
+        }
+      ],
+      "argline": "const BT_i8 *szpName",
+      "file": "devman/bt_devman.h",
+      "line": 32,
+      "lineto": 32,
+      "comments": "",
+      "sig": "const BT_i8 *",
+      "rawComments": "",
+      "group": "devman_bt_devman.h"
+    },
+    "BT_ProbeIntegratedDevices": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hLogDevice",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hLogDevice",
+      "file": "devman/bt_devman.h",
+      "line": 34,
+      "lineto": 34,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "devman_bt_devman.h"
+    },
+    "BT_RESOURCE BT_GetIntegratedResource": {
+      "description": "",
+      "return": {
+        "type": "const*",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "const BT_INTEGRATED_DEVICE *",
+          "name": "pDevice",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulType",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulNum",
+          "comment": ""
+        }
+      ],
+      "argline": "const BT_INTEGRATED_DEVICE *pDevice, BT_u32 ulType, BT_u32 ulNum",
+      "file": "devman/bt_integrated_device.h",
+      "line": 18,
+      "lineto": 18,
+      "comments": "",
+      "sig": "const BT_INTEGRATED_DEVICE *::BT_u32::BT_u32",
+      "rawComments": "",
+      "group": "devman_bt_integrated_device.h"
+    },
+    "struct { BT_ERROR": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnSetBaudrate",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnSetBaudrate",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 23,
+      "lineto": 24,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_UartSetBaudrate": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hUart",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulBaudrate",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hUart, BT_u32 ulBaudrate",
+      "file": "interfaces/bt_dev_if_uart.h",
+      "line": 52,
+      "lineto": 55,
+      "comments": "Define the unified API for UART devices in BlueThunder",
+      "sig": "BT_HANDLE::BT_u32",
+      "rawComments": "Define the unified API for UART devices in BlueThunder",
+      "group": "interfaces_bt_dev_if_uart.h"
+    },
+    "BT_UartSetConfiguration": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hUart",
+          "comment": ""
+        },
+        {
+          "type": "BT_UART_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hUart, BT_UART_CONFIG *pConfig",
+      "file": "interfaces/bt_dev_if_uart.h",
+      "line": 56,
+      "lineto": 56,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_UART_CONFIG *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_uart.h"
+    },
+    "BT_UartGetConfiguration": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hUart",
+          "comment": ""
+        },
+        {
+          "type": "BT_UART_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hUart, BT_UART_CONFIG *pConfig",
+      "file": "interfaces/bt_dev_if_uart.h",
+      "line": 57,
+      "lineto": 57,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_UART_CONFIG *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_uart.h"
+    },
+    "BT_UartEnable": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hUart",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hUart",
+      "file": "interfaces/bt_dev_if_uart.h",
+      "line": 58,
+      "lineto": 58,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_uart.h"
+    },
+    "BT_UartDisable": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hUart",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hUart",
+      "file": "interfaces/bt_dev_if_uart.h",
+      "line": 59,
+      "lineto": 59,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_uart.h"
+    },
+    "struct _BT_DEV_IF_GPIO { BT_ERROR": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnSet",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnSet",
+      "file": "interfaces/bt_dev_if_gpio.h",
+      "line": 6,
+      "lineto": 7,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_gpio.h"
+    },
+    "BT_SetPowerState": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hDevice",
+          "comment": ""
+        },
+        {
+          "type": "BT_POWER_STATE",
+          "name": "eState",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hDevice, BT_POWER_STATE eState",
+      "file": "interfaces/bt_if_power.h",
+      "line": 21,
+      "lineto": 21,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_POWER_STATE",
+      "rawComments": "",
+      "group": "interfaces_bt_if_power.h"
+    },
+    "BT_GetPowerState": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hDevice",
+          "comment": ""
+        },
+        {
+          "type": "BT_POWER_STATE *",
+          "name": "peState",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hDevice, BT_POWER_STATE *peState",
+      "file": "interfaces/bt_if_power.h",
+      "line": 22,
+      "lineto": 22,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_POWER_STATE *",
+      "rawComments": "",
+      "group": "interfaces_bt_if_power.h"
+    },
+    "BT_CanSetBaudrate": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulBaudrate",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN, BT_u32 ulBaudrate",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 33,
+      "lineto": 36,
+      "comments": "Define the unified API for CAN devices in BlueThunder",
+      "sig": "BT_HANDLE::BT_u32",
+      "rawComments": "Define the unified API for CAN devices in BlueThunder",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CanSetConfiguration": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        },
+        {
+          "type": "BT_CAN_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN, BT_CAN_CONFIG *pConfig",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 37,
+      "lineto": 37,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_CAN_CONFIG *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CanGetConfiguration": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        },
+        {
+          "type": "BT_CAN_CONFIG *",
+          "name": "pConfig",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN, BT_CAN_CONFIG *pConfig",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 38,
+      "lineto": 38,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_CAN_CONFIG *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CanEnable": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 39,
+      "lineto": 39,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CanDisable": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 40,
+      "lineto": 40,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CanSendMessage": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        },
+        {
+          "type": "BT_CAN_MESSAGE *",
+          "name": "pCanMessage",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN, BT_CAN_MESSAGE *pCanMessage",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 41,
+      "lineto": 41,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_CAN_MESSAGE *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CanReadMessage": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hCAN",
+          "comment": ""
+        },
+        {
+          "type": "BT_CAN_MESSAGE *",
+          "name": "pCanMessage",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hCAN, BT_CAN_MESSAGE *pCanMessage",
+      "file": "interfaces/bt_dev_if_can.h",
+      "line": 42,
+      "lineto": 42,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_CAN_MESSAGE *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_can.h"
+    },
+    "BT_CharDeviceRead": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hDevice",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulFlags",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulSize",
+          "comment": ""
+        },
+        {
+          "type": "BT_u8 *",
+          "name": "pucDest",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hDevice, BT_u32 ulFlags, BT_u32 ulSize, BT_u8 *pucDest",
+      "file": "interfaces/bt_if_chardev.h",
+      "line": 18,
+      "lineto": 18,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32::BT_u32::BT_u8 *",
+      "rawComments": "",
+      "group": "interfaces_bt_if_chardev.h"
+    },
+    "BT_CharDeviceWrite": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hDevice",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulFlags",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulSize",
+          "comment": ""
+        },
+        {
+          "type": "const BT_u8 *",
+          "name": "pucSource",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hDevice, BT_u32 ulFlags, BT_u32 ulSize, const BT_u8 *pucSource",
+      "file": "interfaces/bt_if_chardev.h",
+      "line": 19,
+      "lineto": 19,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32::BT_u32::const BT_u8 *",
+      "rawComments": "",
+      "group": "interfaces_bt_if_chardev.h"
+    },
+    "struct _BT_DEV_IF_TIMER { BT_u32": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnGetInputClock",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnGetInputClock",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 10,
+      "lineto": 11,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerStart": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 32,
+      "lineto": 32,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerStop": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 33,
+      "lineto": 33,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerSetConfiguration": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pConfig",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, void *pConfig",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 35,
+      "lineto": 35,
+      "comments": "",
+      "sig": "BT_HANDLE::void *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerGetConfiguration": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pConfig",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, void *pConfig",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 36,
+      "lineto": 36,
+      "comments": "",
+      "sig": "BT_HANDLE::void *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerEnableInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 38,
+      "lineto": 38,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerDisableInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 39,
+      "lineto": 39,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerRegisterCallback": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_TIMER_CALLBACK",
+          "name": "pfnCallback",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pParam",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_TIMER_CALLBACK pfnCallback, void *pParam, BT_ERROR *pError",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 40,
+      "lineto": 40,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_TIMER_CALLBACK::void *::BT_ERROR *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerUnregisterCallback": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_HANDLE",
+          "name": "hCallback",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_HANDLE hCallback",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 41,
+      "lineto": 41,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerGetPrescaler": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_ERROR *pError",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 43,
+      "lineto": 43,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_ERROR *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerSetPrescaler": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulPrescaler",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_u32 ulPrescaler",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 44,
+      "lineto": 44,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerGetPeriodCount": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_ERROR *pError",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 45,
+      "lineto": 45,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_ERROR *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerSetPeriodCount": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulPeriodCount",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_u32 ulPeriodCount",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 46,
+      "lineto": 46,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerSetFrequency": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulFrequencyHz",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_u32 ulFrequencyHz",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 47,
+      "lineto": 47,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerGetFrequency": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_ERROR *pError",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 48,
+      "lineto": 48,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_ERROR *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerEnableReload": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 50,
+      "lineto": 50,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerDisableReload": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 51,
+      "lineto": 51,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerGetValue": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_ERROR *pError",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 53,
+      "lineto": 53,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_ERROR *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerSetValue": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulValue",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_u32 ulValue",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 54,
+      "lineto": 54,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_u32",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "BT_TimerExpired": {
+      "description": "",
+      "return": {
+        "type": "BT_BOOL",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hTimer",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hTimer, BT_ERROR *pError",
+      "file": "interfaces/bt_dev_if_timer.h",
+      "line": 55,
+      "lineto": 55,
+      "comments": "",
+      "sig": "BT_HANDLE::BT_ERROR *",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_timer.h"
+    },
+    "struct _BT_DEV_IF_SYSTIMER { BT_ERROR": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnGetClockRate",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnGetClockRate",
+      "file": "interfaces/bt_dev_if_systimer.h",
+      "line": 7,
+      "lineto": 8,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_systimer.h"
+    },
+    "struct _BT_DEV_IF_SDIO { BT_ERROR": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnSendCommand",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnSendCommand",
+      "file": "interfaces/bt_dev_if_sdio.h",
+      "line": 5,
+      "lineto": 6,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_sdio.h"
+    },
+    "struct _BT_DEV_IF_IRQ { BT_ERROR": {
+      "description": "",
+      "return": {
+        "type": "typedef",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "",
+          "name": "*pfnRegister",
+          "comment": ""
+        }
+      ],
+      "argline": "*pfnRegister",
+      "file": "interfaces/bt_dev_if_irq.h",
+      "line": 7,
+      "lineto": 8,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "interfaces_bt_dev_if_irq.h"
+    },
+    "BT_TaskletSchedule": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_TASKLET *",
+          "name": "pTasklet",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_TASKLET *pTasklet",
+      "file": "interrupts/bt_tasklets.h",
+      "line": 27,
+      "lineto": 31,
+      "comments": "",
+      "sig": "BT_TASKLET *",
+      "rawComments": "",
+      "group": "interrupts_bt_tasklets.h"
+    },
+    "BT_TaskletHighSchedule": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_TASKLET *",
+          "name": "pTasklet",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_TASKLET *pTasklet",
+      "file": "interrupts/bt_tasklets.h",
+      "line": 32,
+      "lineto": 32,
+      "comments": "",
+      "sig": "BT_TASKLET *",
+      "rawComments": "",
+      "group": "interrupts_bt_tasklets.h"
+    },
+    "BT_RegisterInterruptController": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulBaseIRQ",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulTotalIRQs",
+          "comment": ""
+        },
+        {
+          "type": "BT_HANDLE",
+          "name": "hIRQ",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulBaseIRQ, BT_u32 ulTotalIRQs, BT_HANDLE hIRQ",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 16,
+      "lineto": 16,
+      "comments": "",
+      "sig": "BT_u32::BT_u32::BT_HANDLE",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_RegisterInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": ""
+        },
+        {
+          "type": "BT_FN_INTERRUPT_HANDLER",
+          "name": "pfnHandler",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pParam",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulIRQ, BT_FN_INTERRUPT_HANDLER pfnHandler, void *pParam",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 18,
+      "lineto": 18,
+      "comments": "",
+      "sig": "BT_u32::BT_FN_INTERRUPT_HANDLER::void *",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_UnregisterInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": ""
+        },
+        {
+          "type": "BT_FN_INTERRUPT_HANDLER",
+          "name": "pfnHandler",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pParam",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulIRQ, BT_FN_INTERRUPT_HANDLER pfnHandler, void *pParam",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 19,
+      "lineto": 19,
+      "comments": "",
+      "sig": "BT_u32::BT_FN_INTERRUPT_HANDLER::void *",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_SetInterruptPriority": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulPriority",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulIRQ, BT_u32 ulPriority",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 20,
+      "lineto": 20,
+      "comments": "",
+      "sig": "BT_u32::BT_u32",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_GetInterruptPriority": {
+      "description": "",
+      "return": {
+        "type": "BT_u32",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulIRQ, BT_ERROR *pError",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 21,
+      "lineto": 21,
+      "comments": "",
+      "sig": "BT_u32::BT_ERROR *",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_EnableInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulIRQ",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 22,
+      "lineto": 22,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_DisableInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulIRQ",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 23,
+      "lineto": 23,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_SetInterruptAffinity": {
+      "description": "Controls CPU Interrupt Affinity.",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": "BT_ERR_NONE on success."
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulIRQ",
+          "comment": "Interrupt Number"
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulCPU",
+          "comment": "CPU Id to set the affinity for. (in range(0..nCPUs))."
+        },
+        {
+          "type": "BT_BOOL",
+          "name": "bReceive",
+          "comment": "BT_TRUE if this CPU should receive the interrupt, BT_FALSE if not."
+        }
+      ],
+      "argline": "BT_u32 ulIRQ, BT_u32 ulCPU, BT_BOOL bReceive",
+      "file": "interrupts/bt_interrupts.h",
+      "line": 25,
+      "lineto": 34,
+      "comments": "",
+      "sig": "BT_u32::BT_u32::BT_BOOL",
+      "rawComments": "Controls CPU Interrupt Affinity.",
+      "group": "interrupts_bt_interrupts.h"
+    },
+    "BT_OpenSoftIRQ": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulSoftIRQ",
+          "comment": ""
+        },
+        {
+          "type": "BT_SOFTIRQ_HANDLER",
+          "name": "pfnHandler",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "pData",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulSoftIRQ, BT_SOFTIRQ_HANDLER pfnHandler, void *pData",
+      "file": "interrupts/bt_softirq.h",
+      "line": 34,
+      "lineto": 34,
+      "comments": "",
+      "sig": "BT_u32::BT_SOFTIRQ_HANDLER::void *",
+      "rawComments": "",
+      "group": "interrupts_bt_softirq.h"
+    },
+    "BT_RaiseSoftIRQ": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulSoftIRQ",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulSoftIRQ",
+      "file": "interrupts/bt_softirq.h",
+      "line": 35,
+      "lineto": 35,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "interrupts_bt_softirq.h"
+    },
+    "BT_RaiseSoftIRQFromISR": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulSoftIRQ",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulSoftIRQ",
+      "file": "interrupts/bt_softirq.h",
+      "line": 36,
+      "lineto": 36,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "interrupts_bt_softirq.h"
+    },
+    "BT_DeviceOpen": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "const char *",
+          "name": "szpDevicePath",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "const char *szpDevicePath, BT_ERROR *pError",
+      "file": "fs/bt_devfs.h",
+      "line": 31,
+      "lineto": 31,
+      "comments": "",
+      "sig": "const char *::BT_ERROR *",
+      "rawComments": "",
+      "group": "fs_bt_devfs.h"
+    },
+    "BT_DeviceRegister": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hDevice",
+          "comment": ""
+        },
+        {
+          "type": "const char *",
+          "name": "szpName",
+          "comment": ""
+        },
+        {
+          "type": "const BT_DEVFS_OPS *",
+          "name": "pOps",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hDevice, const char *szpName, const BT_DEVFS_OPS *pOps, BT_ERROR *pError",
+      "file": "fs/bt_devfs.h",
+      "line": 33,
+      "lineto": 33,
+      "comments": "",
+      "sig": "BT_HANDLE::const char *::const BT_DEVFS_OPS *::BT_ERROR *",
+      "rawComments": "",
+      "group": "fs_bt_devfs.h"
+    },
+    "BT_RegisterGpioController": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulBaseGPIO",
+          "comment": ""
+        },
+        {
+          "type": "BT_u32",
+          "name": "ulTotalGPIOs",
+          "comment": ""
+        },
+        {
+          "type": "BT_HANDLE",
+          "name": "hGPIO",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulBaseGPIO, BT_u32 ulTotalGPIOs, BT_HANDLE hGPIO",
+      "file": "gpio/bt_gpio.h",
+      "line": 14,
+      "lineto": 14,
+      "comments": "",
+      "sig": "BT_u32::BT_u32::BT_HANDLE",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "BT_GpioSet": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulGPIO",
+          "comment": ""
+        },
+        {
+          "type": "BT_BOOL",
+          "name": "bValue",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulGPIO, BT_BOOL bValue",
+      "file": "gpio/bt_gpio.h",
+      "line": 16,
+      "lineto": 16,
+      "comments": "",
+      "sig": "BT_u32::BT_BOOL",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "BT_GpioGet": {
+      "description": "",
+      "return": {
+        "type": "BT_BOOL",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulGPIO",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulGPIO, BT_ERROR *pError",
+      "file": "gpio/bt_gpio.h",
+      "line": 17,
+      "lineto": 17,
+      "comments": "",
+      "sig": "BT_u32::BT_ERROR *",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "BT_GpioSetDirection": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulGPIO",
+          "comment": ""
+        },
+        {
+          "type": "BT_GPIO_DIRECTION",
+          "name": "eDirection",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulGPIO, BT_GPIO_DIRECTION eDirection",
+      "file": "gpio/bt_gpio.h",
+      "line": 18,
+      "lineto": 18,
+      "comments": "",
+      "sig": "BT_u32::BT_GPIO_DIRECTION",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "BT_GpioGetDirection": {
+      "description": "",
+      "return": {
+        "type": "BT_GPIO_DIRECTION",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulGPIO",
+          "comment": ""
+        },
+        {
+          "type": "BT_ERROR *",
+          "name": "pError",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulGPIO, BT_ERROR *pError",
+      "file": "gpio/bt_gpio.h",
+      "line": 19,
+      "lineto": 19,
+      "comments": "",
+      "sig": "BT_u32::BT_ERROR *",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "BT_GpioEnableInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulGPIO",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulGPIO",
+      "file": "gpio/bt_gpio.h",
+      "line": 21,
+      "lineto": 21,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "BT_GpioDisableInterrupt": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_u32",
+          "name": "ulGPIO",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_u32 ulGPIO",
+      "file": "gpio/bt_gpio.h",
+      "line": 22,
+      "lineto": 22,
+      "comments": "",
+      "sig": "BT_u32",
+      "rawComments": "",
+      "group": "gpio_bt_gpio.h"
+    },
+    "bt_kvprintf": {
+      "description": "",
+      "return": {
+        "type": "int",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "char const *",
+          "name": "fmt",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "(func",
+          "comment": ""
+        }
+      ],
+      "argline": "char const *fmt, void (*func",
+      "file": "lib/printf.h",
+      "line": 1,
+      "lineto": 11,
+      "comments": "BitThunder printf replacement and macro override.",
+      "sig": "char const *::void *",
+      "rawComments": "BitThunder printf replacement and macro override.",
+      "group": "lib_printf.h"
+    },
+    "bt_printf": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "const char *",
+          "name": "fmt",
+          "comment": ""
+        },
+        {
+          "type": "",
+          "name": "...",
+          "comment": ""
+        }
+      ],
+      "argline": "const char *fmt, ...",
+      "file": "lib/printf.h",
+      "line": 12,
+      "lineto": 12,
+      "comments": "",
+      "sig": "const char *::",
+      "rawComments": "",
+      "group": "lib_printf.h"
+    },
+    "bt_putc": {
+      "description": "",
+      "return": {
+        "type": "void",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "int",
+          "name": "c",
+          "comment": ""
+        },
+        {
+          "type": "void *",
+          "name": "stream",
+          "comment": ""
+        }
+      ],
+      "argline": "int c, void *stream",
+      "file": "lib/putc.h",
+      "line": 1,
+      "lineto": 11,
+      "comments": "putc.h\n\nCreated on: Mar 16, 2013\nAuthor: wl",
+      "sig": "int::void *",
+      "rawComments": "putc.h\n\nCreated on: Mar 16, 2013\nAuthor: wl",
+      "group": "lib_putc.h"
+    },
+    "BT_GetStandardHandle": {
+      "description": "",
+      "return": {
+        "type": "BT_HANDLE",
+        "comment": null
+      },
+      "args": [
+
+      ],
+      "argline": "",
+      "file": "lib/putc.h",
+      "line": 12,
+      "lineto": 12,
+      "comments": "",
+      "sig": "",
+      "rawComments": "",
+      "group": "lib_putc.h"
+    },
+    "BT_SetStandardHandle": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "h",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE h",
+      "file": "lib/putc.h",
+      "line": 13,
+      "lineto": 13,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "lib_putc.h"
+    },
+    "BT_kPrint": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "const char *",
+          "name": "format",
+          "comment": ""
+        },
+        {
+          "type": "",
+          "name": "...",
+          "comment": ""
+        }
+      ],
+      "argline": "const char *format, ...",
+      "file": "syslog/bt_printk.h",
+      "line": 1,
+      "lineto": 12,
+      "comments": "bt_syslog.h\n\nCreated on: Mar 16, 2013\nAuthor: wl",
+      "sig": "const char *::",
+      "rawComments": "bt_syslog.h\n\nCreated on: Mar 16, 2013\nAuthor: wl",
+      "group": "syslog_bt_printk.h"
+    },
+    "BT_InitialiseKernelModules": {
+      "description": "",
+      "return": {
+        "type": "BT_ERROR",
+        "comment": null
+      },
+      "args": [
+        {
+          "type": "BT_HANDLE",
+          "name": "hLogger",
+          "comment": ""
+        }
+      ],
+      "argline": "BT_HANDLE hLogger",
+      "file": "module/bt_module_init.h",
+      "line": 12,
+      "lineto": 12,
+      "comments": "",
+      "sig": "BT_HANDLE",
+      "rawComments": "",
+      "group": "module_bt_module_init.h"
+    }
   },
   "globals": {
   },
@@ -11,7 +3506,387 @@
   ],
   "prefix": "include",
   "groups": [
+    [
+      "machines_bt_machines.h",
+      [
+        "",
+        "",
+        "BT_GetCpuClockFrequency"
+      ]
+    ],
+    [
+      "bt_kernel.h",
+      [
+        "void",
+        "BT_kStartScheduler",
+        "BT_kTaskCreate",
+        "BT_kTaskDelete",
+        "BT_kTickCount",
+        "BT_kTaskDelay",
+        "BT_kTaskDelayUntil",
+        "BT_kTaskYield",
+        "BT_kGetThreadTag",
+        "BT_kSetThreadTag",
+        "BT_kMutexCreate",
+        "BT_kMutexDestroy",
+        "BT_kMutexPend",
+        "BT_kMutexRelease",
+        "BT_kMutexReleaseFromISR",
+        "BT_kEnterCritical",
+        "BT_kExitCritical"
+      ]
+    ],
+    [
+      "process_bt_threads.h",
+      [
+        "BT_ERROR",
+        "BT_CreateThread",
+        "BT_CreateProcessThread",
+        "BT_GetThreadHandle",
+        "BT_GetThreadProcessHandle",
+        "BT_ThreadSleepUntil",
+        "BT_ThreadSleep",
+        "BT_ThreadYield"
+      ]
+    ],
+    [
+      "process_bt_mutex.h",
+      [
+        "BT_CreateMutex",
+        "BT_PendMutex",
+        "BT_ReleaseMutex",
+        "BT_ReleaseMutexFromISR"
+      ]
+    ],
+    [
+      "process_bt_process.h",
+      [
+        "BT_GetProcessHandle",
+        "BT_GetProcessThreadList"
+      ]
+    ],
+    [
+      "timers_bt_timers.h",
+      [
+        "BT_SetSystemTimerHandle",
+        "BT_GetSystemTimerOffset",
+        "BT_GetKernelTime",
+        "BT_GetKernelTick"
+      ]
+    ],
+    [
+      "mm_bt_heap.h",
+      [
+        "BT_kMalloc",
+        "BT_kFree"
+      ]
+    ],
+    [
+      "devman_bt_block.h",
+      [
+        "BT_RegisterBlockDevice",
+        "BT_BlockRead",
+        "BT_BlockWrite"
+      ]
+    ],
+    [
+      "devman_bt_resource.h",
+      [
 
+      ]
+    ],
+    [
+      "devman_bt_devman.h",
+      [
+        "const BT_IF_HANDLE \t   ",
+        "BT_ERROR",
+        "BT_GetMachineDescription",
+        "BT_GetIntergratedDeviceByName",
+        "BT_GetIntegratedDriverByName",
+        "BT_ProbeIntegratedDevices"
+      ]
+    ],
+    [
+      "devman_bt_integrated_device.h",
+      [
+        "BT_RESOURCE BT_GetIntegratedResource"
+      ]
+    ],
+    [
+      "devman_bt_integrated_driver.h",
+      [
+        ""
+      ]
+    ],
+    [
+      "interfaces_bt_if_file.h",
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_uart.h",
+      [
+        "struct { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "BT_UartSetBaudrate",
+        "BT_UartSetConfiguration",
+        "BT_UartGetConfiguration",
+        "BT_UartEnable",
+        "BT_UartDisable"
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_gpio.h",
+      [
+        "struct _BT_DEV_IF_GPIO { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      "interfaces_bt_if_block.h",
+      [
+        "",
+        ""
+      ]
+    ],
+    [
+      "interfaces_bt_if_device.h",
+      [
+
+      ]
+    ],
+    [
+      "interfaces_bt_if_power.h",
+      [
+        "",
+        "",
+        "BT_SetPowerState",
+        "BT_GetPowerState"
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_can.h",
+      [
+        "struct { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BT_CanSetBaudrate",
+        "BT_CanSetConfiguration",
+        "BT_CanGetConfiguration",
+        "BT_CanEnable",
+        "BT_CanDisable",
+        "BT_CanSendMessage",
+        "BT_CanReadMessage"
+      ]
+    ],
+    [
+      "interfaces_bt_if_chardev.h",
+      [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BT_CharDeviceRead",
+        "BT_CharDeviceWrite"
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_timer.h",
+      [
+        "void",
+        "struct _BT_DEV_IF_TIMER { BT_u32",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "BT_TimerStart",
+        "BT_TimerStop",
+        "BT_TimerSetConfiguration",
+        "BT_TimerGetConfiguration",
+        "BT_TimerEnableInterrupt",
+        "BT_TimerDisableInterrupt",
+        "BT_TimerRegisterCallback",
+        "BT_TimerUnregisterCallback",
+        "BT_TimerGetPrescaler",
+        "BT_TimerSetPrescaler",
+        "BT_TimerGetPeriodCount",
+        "BT_TimerSetPeriodCount",
+        "BT_TimerSetFrequency",
+        "BT_TimerGetFrequency",
+        "BT_TimerEnableReload",
+        "BT_TimerDisableReload",
+        "BT_TimerGetValue",
+        "BT_TimerSetValue",
+        "BT_TimerExpired"
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_systimer.h",
+      [
+        "struct _BT_DEV_IF_SYSTIMER { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_sdio.h",
+      [
+        "struct _BT_DEV_IF_SDIO { BT_ERROR"
+      ]
+    ],
+    [
+      "interfaces_bt_dev_if_irq.h",
+      [
+        "struct _BT_DEV_IF_IRQ { BT_ERROR",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      "interrupts_bt_tasklets.h",
+      [
+        "void",
+        "BT_TaskletSchedule",
+        "BT_TaskletHighSchedule"
+      ]
+    ],
+    [
+      "interrupts_bt_interrupts.h",
+      [
+        "BT_ERROR",
+        "BT_RegisterInterruptController",
+        "BT_RegisterInterrupt",
+        "BT_UnregisterInterrupt",
+        "BT_SetInterruptPriority",
+        "BT_GetInterruptPriority",
+        "BT_EnableInterrupt",
+        "BT_DisableInterrupt",
+        "BT_SetInterruptAffinity"
+      ]
+    ],
+    [
+      "interrupts_bt_softirq.h",
+      [
+        "void",
+        "BT_OpenSoftIRQ",
+        "BT_RaiseSoftIRQ",
+        "BT_RaiseSoftIRQFromISR"
+      ]
+    ],
+    [
+      "bt_export.h",
+      [
+
+      ]
+    ],
+    [
+      "fs_fullfat_ff.config.h",
+      [
+
+      ]
+    ],
+    [
+      "fs_bt_devfs.h",
+      [
+        "",
+        "BT_DeviceOpen",
+        "BT_DeviceRegister"
+      ]
+    ],
+    [
+      "gpio_bt_gpio.h",
+      [
+        "BT_RegisterGpioController",
+        "BT_GpioSet",
+        "BT_GpioGet",
+        "BT_GpioSetDirection",
+        "BT_GpioGetDirection",
+        "BT_GpioEnableInterrupt",
+        "BT_GpioDisableInterrupt"
+      ]
+    ],
+    [
+      "lib_printf.h",
+      [
+        "bt_kvprintf",
+        "bt_printf"
+      ]
+    ],
+    [
+      "lib_ctype.h",
+      [
+
+      ]
+    ],
+    [
+      "lib_putc.h",
+      [
+        "bt_putc",
+        "BT_GetStandardHandle",
+        "BT_SetStandardHandle"
+      ]
+    ],
+    [
+      "syslog_bt_printk.h",
+      [
+        "BT_kPrint"
+      ]
+    ],
+    [
+      "bt_os.h",
+      [
+
+      ]
+    ],
+    [
+      "module_bt_module_init.h",
+      [
+        "",
+        "BT_InitialiseKernelModules"
+      ]
+    ]
   ],
   "examples": null
 }

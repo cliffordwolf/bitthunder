@@ -12,7 +12,5561 @@
   "github": "jameswalmsley/bitthunder",
   "name": "BitThunder",
   "signatures": {
+    "": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetCpuClockFrequency": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kStartScheduler": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kTaskCreate": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kTaskDelete": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kTickCount": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kTaskDelay": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kTaskDelayUntil": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetSystemTimerHandle": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetSystemTimerOffset": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetKernelTime": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetKernelTick": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMalloc": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kFree": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "const BT_IF_HANDLE \t   ": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ERROR": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DeviceOpen": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.5.0": true
+      }
+    },
+    "BT_GetMachineDescription": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetIntergratedDeviceByName": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetIntegratedDriverByName": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ProbeIntegratedDevices": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RESOURCE BT_GetIntegratedResource": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct { BT_ERROR": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_UartSetBaudrate": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_UartSetConfiguration": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_UartGetConfiguration": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_UartEnable": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_UartDisable": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_GPIO { BT_ERROR": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_HANDLE": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetPowerState": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetPowerState": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CharDeviceRead": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CharDeviceWrite": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_TIMER { BT_u32": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerStart": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerStop": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerEnableInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerDisableInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerRegisterCallback": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerUnregisterCallback": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerGetPrescaler": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerSetPrescaler": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerGetPeriodCount": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerSetPeriodCount": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerSetFrequency": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerGetFrequency": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerEnableReload": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerDisableReload": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerGetValue": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerSetValue": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerExpired": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_SYSTIMER { BT_ERROR": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_SDIO { BT_ERROR": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_IRQ { BT_ERROR": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RegisterInterruptController": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RegisterInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_UnregisterInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetInterruptPriority": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetInterruptPriority": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_EnableInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DisableInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetInterruptAffinity": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.4.0": true
+      }
+    },
+    "BT_RegisterGpioController": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GpioSet": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GpioGet": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GpioSetDirection": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GpioGetDirection": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GpioEnableInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GpioDisableInterrupt": {
+      "exists": [
+        "stable-0.3.0",
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kTaskYield": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kGetThreadTag": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kSetThreadTag": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexCreate": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexDestroy": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexPend": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexRelease": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexReleaseFromISR": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CreateThread": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CreateProcessThread": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetThreadHandle": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetThreadProcessHandle": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ThreadSleepUntil": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ThreadSleep": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ThreadYield": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CreateMutex": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PendMutex": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ReleaseMutex": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ReleaseMutexFromISR": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetProcessHandle": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetProcessThreadList": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_InitialiseKernelModules": {
+      "exists": [
+        "stable-0.4.0",
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kEnterCritical": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kExitCritical": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RegisterBlockDevice": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_BlockRead": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_BlockWrite": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_CanSetBaudrate": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CanSetConfiguration": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CanGetConfiguration": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CanEnable": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CanDisable": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CanSendMessage": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CanReadMessage": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerSetConfiguration": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TimerGetConfiguration": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TaskletSchedule": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_TaskletHighSchedule": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_OpenSoftIRQ": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RaiseSoftIRQ": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RaiseSoftIRQFromISR": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DeviceRegister": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "bt_kvprintf": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_printf": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_putc": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_GetStandardHandle": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetStandardHandle": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kPrint": {
+      "exists": [
+        "stable-0.5.0",
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kStopScheduler": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetBlockGeometry": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_BlockGetInode": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiSetBaudrate": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiSetConfiguration": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiGetConfiguration": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiEnable": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiDisable": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiWrite": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_SpiRead": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "struct _BT_IF_FS { BT_HANDLE": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CSetClockrate": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CSetConfiguration": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CGetConfiguration": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CEnable": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CDisable": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CStart": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CSendAddress": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CGetData": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CSendData": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CSendNack": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CSendAck": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CGetAck": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CStop": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CWrite": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2CRead": {
+      "exists": [
+        "stable-0.6.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CharDeviceFlush": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_EnableInterrupts": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DisableInterrupts": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ReadDir": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ReadInode": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Read": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_Write": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true,
+        "HEAD": true
+      }
+    },
+    "BT_GetC": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_PutC": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Seek": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.8.0": true
+      }
+    },
+    "BT_Tell": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.7.0": true
+      }
+    },
+    "BT_GetInodeName": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RegisterFilesystem": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Open": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_Mount": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_OpenDir": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetInode": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetLongLE": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetShortLE": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_EnumerateVolumes": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_VolumeRead": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_VolumeWrite": {
+      "exists": [
+        "stable-0.6.0",
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_kRecursiveMutexCreate": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexPendRecursive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kMutexReleaseRecursive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueCreate": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueDestroy": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueSend": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueSendFromISR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueSendToFront": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueSendToBack": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueReceive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueReceiveFromISR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_kQueueMessagesWaiting": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "= ALIGN": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "= __sdata_start +": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "= __sdata2_start +": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CreateQueue": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueSend": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueSendFromISR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueSendToBack": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueSendToFront": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueReceive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueReceiveFromISR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QueueMessagesWaiting": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PendMutexRecursive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ReleaseMutexRecursive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_StopSystemTimer": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetTotalDevicesByType": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DEVICE BT_GetDeviceByType": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RESOURCE BT_GetDeviceResource": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RESOURCE BT_GetResource": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_RegisterBusWithID": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "{ BT_HANDLE": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_PWM { BT_ERROR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmStart": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmStop": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmSetConfiguration": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmGetConfiguration": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmGetPeriodCount": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmSetFrequency": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmGetFrequency": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmGetDutyCylce": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmSetDutyCycle": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmGetDeadTime": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_PwmSetDeadTime": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_ADC { BT_ERROR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcStart": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcStop": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcSetConfiguration": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcGetConfiguration": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcRegisterCallback": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcUnregisterCallback": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AdcRead": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_RTC { BT_ERROR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetCoreID": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetTotalCores": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_BootCore": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.8.0": true
+      }
+    },
+    "BT_DCacheEnable": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheDisable": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheFlush": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheInvalidate": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ICacheEnable": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ICacheDisable": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ICacheInvalidate": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_FUNC_SMBUS_WRITE_BYTE_DATA) BT_I2C_FUNC_SMBUS_WRITE_WORD_DATA) BT_I2C_FUNC_SMBUS_WRITE_BLOCK_DATA) BT_I2C_FUNC_SMBUS_WRITE_I2C_BLOCK) BT_I2C_FUNC_SMBUS_BYTE | \\ BT_I2C_FUNC_SMBUS_BYTE_DATA | \\ BT_I2C_FUNC_SMBUS_WORD_DATA | \\ BT_I2C_FUNC_SMBUS_PROC_CALL | \\ BT_I2C_FUNC_SMBUS_WRITE_BLOCK_DATA | \\ BT_I2C_FUNC_SMBUS_I2C_BLOCK | \\ BT_I2C_FUNC_SMBUS_PEC) BT_u32": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_Transfer": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_MasterSend": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_MasterReceive": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CalculateClockDivider": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetS": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_init": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_process": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "ulCapabilites;\t\t\t BT_ERROR": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RegisterNetworkInterface": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "accept": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bind": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "shutdown": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "getpeername": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "getsockname": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "getsockopt": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "setsockopt": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "close": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "connect": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "listen": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "recv": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "read": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "send": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "socket": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "write": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "ioctl": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "fcntl": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RTCSetTime": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RTCGetTime": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bcd2bin": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bin2bcd": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "int": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellCommand": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.8.0": true,
+        "stable-0.9.0": true
+      }
+    },
+    "BT_ShellScript": {
+      "exists": [
+        "stable-0.7.0",
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_CreateProcess": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_task BT_GetProcessTask": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_init": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_map bt_vm_create": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_destroy": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_map bt_vm_get_kernel_map": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_translate": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_map_region": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_unmap_region": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_allocate": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_vm_free": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_pgd_t bt_mmu_newmap": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_mmu_terminate": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_mmu_switch": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_mmu_switch_ttb": {
+      "exists": [
+        "stable-0.8.0"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_mmu_flush_tlb": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_paddr_t bt_mmu_extract": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_mmu_init": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_mmu_killmap": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "int bt_mmu_map": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_pgd_t bt_mmu_get_kernel_pgd": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_ioremap": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_initialise_pages": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_initialise_pages_second_stage": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_alloc": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_free": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_initialise_slab": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_initialise_slab_second_stage": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CacheInit": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CacheAlloc": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CacheFree": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Flush": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_cpu_to_le64": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_cpu_to_le32": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_cpu_to_le16": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_le64_to_cpu": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_le32_to_cpu": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_le16_to_cpu": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_cpu_to_be64": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_cpu_to_be32": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_cpu_to_be16": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_be64_to_cpu": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_be32_to_cpu": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_be16_to_cpu": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Shell": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "stable-0.9.0": true
+      }
+    },
+    "BT_ShellSetEnv": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellGetEnv": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellGetStarredEnv": {
+      "exists": [
+        "stable-0.8.0",
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_get_kernel_params": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetThreadTag": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetThreadTag": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetKernelProcessHandle": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetParentProcessHandle": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetProcessTime": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetTotalProcesses": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_AllocFileDescriptor": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_FreeFileDescriptor": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetFileDescriptor": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetFileDescriptor": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetProcessFileDescriptor": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetProcessFileDescriptor": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_process_init": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetGlobalTimerHandle": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetGlobalTimer": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetGlobalTimerRate": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_mmu_set_section": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_iounmap": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_info": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_initialise_coherent_pages": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_alloc_aligned": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_reserve": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_alloc_coherent": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_free_coherent": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_reserve_coherent": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_slab_info": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DEVICE    BT_GetDeviceByType": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RESOURCE  BT_GetDeviceResource": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "mtd_erase_callback": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MTD_RegisterDevice": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MTD_Erase": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MTD_Read": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_MTD_Write": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+        "HEAD": true
+      }
+    },
+    "BT_MTD_GetUserInfo": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_RegisterBus": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_GetBusByID": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_I2C_GetBusObject": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetTotalIntegratedDriversByType": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetIntegratedDriverByType": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "eType;\t\t\t\t\t\t\t union { BT_HANDLE": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiRegisterMaster": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiMessageInit": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiMessageAddTail": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiTransferDel": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiSetup": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiSync": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiBusLock": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiBusUnlock": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SpiWriteThenRead": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_QEI { BT_ERROR": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEISetConfiguration": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIGetConfiguration": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIGetIndexCount": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIGetPosition": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEISetMaximumPosition": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEISetPositionComparator": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIGetVelocity": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIEnableInterrupt": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIDisableInterrupt": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIClearInterrupt": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIRegisterCallback": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_QEIUnregisterCallback": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_MCPWM { BT_ERROR": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmStart": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmStop": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmSetConfiguration": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmGetConfiguration": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmGetChannelConfig": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmSetChannelConfig": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmGetChannelPulsewidth": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmSetChannelPulsewidth": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MCPwmSetDCModePattern": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheFlushLine": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheFlushRange": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheInvalidateLine": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DCacheInvalidateRange": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_i8 ": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_GTIMER { BT_u32": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "ulCapabilities;\t\t\t BT_ERROR": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_MII { BT_u16": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct BT_DEV_IF_PHY { BT_ERROR": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetInterruptLabel": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_i8 BT_GetInterruptLabel": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_InterruptRegistered": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetInterruptCount": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "mask = BT_BIT_MASK": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "p =": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "1UL &": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_EOF": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetModeFlags": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MkDir": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RmDir": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Remove": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Unlink": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_Rename": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetCwd": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ChDir": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_up": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_down": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_set_addr": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_get_addr": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_dhcp_done": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_lwip_netif_get_hostname": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_isNetworkingReady": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetNetif": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifGetMacAddress": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifSetMacAddress": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifSetAddress": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifGetAddress": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_StartNetif": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_StopNetif": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifGetHostname": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RegisterMiiBus": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ConnectPHY": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_phy_read": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_phy_write": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_phy_generic_init": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_phy_generic_read_status": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "closesocket": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_irq_count": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_irq_to_resource_table": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_of_get_fdt": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_node bt_of_node_get": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_node_put": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_node bt_of_get_parent": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_property bt_of_find_property": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_of_get_property": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_n_addr_cells": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_n_size_cells": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_can_translate_address": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_address_to_resource": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_be32 bt_of_get_address": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_is_compatible": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_node bt_of_find_node_by_path": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_node bt_of_find_node_by_phandle": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_integrated_probe": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_integrated_populate": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_integrated_populate_device": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_unflatten_device_tree": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_init": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "inline BT_u64 bt_of_read_number": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct bt_device_node bt_of_get_bootlogger": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_node bt_of_integrated_get_node": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_i2c_populate_device": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_spi_populate_device": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "void bt_of_get_mac_address": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_device_node bt_of_mdio_get_node": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_of_mdio_populate_device": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_RTCRegisterDevice": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_fprintf": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sprintf": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetStdin": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetStdin": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetStdout": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetStdout": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_SetStderr": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetStderr": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_getc": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_fgetc": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_fputc": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_yield": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_getpid": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_open": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_close": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_read": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_write": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_klog": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_sleep": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_sys_gpioset": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellCreate": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellDestroy": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellGetStdout": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellGetStdin": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "char BT_ShellGetPrompt": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellUpdatePrompt": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellGetFlags": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ShellGetNextEnv": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_ExecImageFile": {
+      "exists": [
+        "stable-0.9.0",
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_pool_init": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_pool_alloc": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_pool_free": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_pool_attach": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_page_pool_reserve": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "struct _BT_DEV_IF_DAC { BT_ERROR": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacStart": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacStop": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacSetConfiguration": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacGetConfiguration": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacRegisterCallback": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacUnregisterCallback": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_DacWrite": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetTotalNetworkInterfaces": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetNetifFromHandle": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_GetNetifByIndex": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifConfigureLink": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifRestartLink": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_NetifGetLinkState": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "bt_netif_adjust_link": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_CreateMux": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MuxOpen": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    },
+    "BT_MuxAttach": {
+      "exists": [
+        "HEAD"
+      ],
+      "changes": {
+      }
+    }
   },
   "groups": {
+    "": "loader_bt_loader.h",
+    "BT_GetCpuClockFrequency": "machines_bt_machines.h",
+    "void": "loader_bt_loader.h",
+    "BT_kStartScheduler": "bt_kernel.h",
+    "BT_kTaskCreate": "bt_kernel.h",
+    "BT_kTaskDelete": "bt_kernel.h",
+    "BT_kTickCount": "bt_kernel.h",
+    "BT_kTaskDelay": "bt_kernel.h",
+    "BT_kTaskDelayUntil": "bt_kernel.h",
+    "BT_SetSystemTimerHandle": "timers_bt_timers.h",
+    "BT_GetSystemTimerOffset": "timers_bt_timers.h",
+    "BT_GetKernelTime": "timers_bt_timers.h",
+    "BT_GetKernelTick": "timers_bt_timers.h",
+    "BT_kMalloc": "mm_bt_heap.h",
+    "BT_kFree": "mm_bt_heap.h",
+    "const BT_IF_HANDLE \t   ": "devman_bt_devman.h",
+    "BT_ERROR": "interrupts_bt_interrupts.h",
+    "BT_DeviceOpen": "fs_bt_devfs.h",
+    "BT_GetMachineDescription": "devman_bt_devman.h",
+    "BT_GetIntergratedDeviceByName": "devman_bt_devman.h",
+    "BT_GetIntegratedDriverByName": "devman_bt_devman.h",
+    "BT_ProbeIntegratedDevices": "devman_bt_devman.h",
+    "BT_RESOURCE BT_GetIntegratedResource": "devman_bt_integrated_device.h",
+    "struct { BT_ERROR": "interfaces_bt_dev_if_mtd.h",
+    "BT_UartSetBaudrate": "interfaces_bt_dev_if_uart.h",
+    "BT_UartSetConfiguration": "interfaces_bt_dev_if_uart.h",
+    "BT_UartGetConfiguration": "interfaces_bt_dev_if_uart.h",
+    "BT_UartEnable": "interfaces_bt_dev_if_uart.h",
+    "BT_UartDisable": "interfaces_bt_dev_if_uart.h",
+    "struct _BT_DEV_IF_GPIO { BT_ERROR": "interfaces_bt_dev_if_gpio.h",
+    "BT_HANDLE": "interfaces_bt_if_device.h",
+    "BT_SetPowerState": "interfaces_bt_if_power.h",
+    "BT_GetPowerState": "interfaces_bt_if_power.h",
+    "BT_CharDeviceRead": "interfaces_bt_if_chardev.h",
+    "BT_CharDeviceWrite": "interfaces_bt_if_chardev.h",
+    "struct _BT_DEV_IF_TIMER { BT_u32": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerStart": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerStop": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerEnableInterrupt": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerDisableInterrupt": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerRegisterCallback": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerUnregisterCallback": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerGetPrescaler": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerSetPrescaler": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerGetPeriodCount": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerSetPeriodCount": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerSetFrequency": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerGetFrequency": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerEnableReload": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerDisableReload": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerGetValue": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerSetValue": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerExpired": "interfaces_bt_dev_if_timer.h",
+    "struct _BT_DEV_IF_SYSTIMER { BT_ERROR": "interfaces_bt_dev_if_systimer.h",
+    "struct _BT_DEV_IF_SDIO { BT_ERROR": "interfaces_bt_dev_if_sdio.h",
+    "struct _BT_DEV_IF_IRQ { BT_ERROR": "interfaces_bt_dev_if_irq.h",
+    "BT_RegisterInterruptController": "interrupts_bt_interrupts.h",
+    "BT_RegisterInterrupt": "interrupts_bt_interrupts.h",
+    "BT_UnregisterInterrupt": "interrupts_bt_interrupts.h",
+    "BT_SetInterruptPriority": "interrupts_bt_interrupts.h",
+    "BT_GetInterruptPriority": "interrupts_bt_interrupts.h",
+    "BT_EnableInterrupt": "interrupts_bt_interrupts.h",
+    "BT_DisableInterrupt": "interrupts_bt_interrupts.h",
+    "BT_SetInterruptAffinity": "interrupts_bt_interrupts.h",
+    "BT_RegisterGpioController": "gpio_bt_gpio.h",
+    "BT_GpioSet": "gpio_bt_gpio.h",
+    "BT_GpioGet": "gpio_bt_gpio.h",
+    "BT_GpioSetDirection": "gpio_bt_gpio.h",
+    "BT_GpioGetDirection": "gpio_bt_gpio.h",
+    "BT_GpioEnableInterrupt": "gpio_bt_gpio.h",
+    "BT_GpioDisableInterrupt": "gpio_bt_gpio.h",
+    "BT_kTaskYield": "bt_kernel.h",
+    "BT_kGetThreadTag": "bt_kernel.h",
+    "BT_kSetThreadTag": "bt_kernel.h",
+    "BT_kMutexCreate": "bt_kernel.h",
+    "BT_kMutexDestroy": "bt_kernel.h",
+    "BT_kMutexPend": "bt_kernel.h",
+    "BT_kMutexRelease": "bt_kernel.h",
+    "BT_kMutexReleaseFromISR": "bt_kernel.h",
+    "BT_CreateThread": "process_bt_threads.h",
+    "BT_CreateProcessThread": "process_bt_threads.h",
+    "BT_GetThreadHandle": "process_bt_threads.h",
+    "BT_GetThreadProcessHandle": "process_bt_threads.h",
+    "BT_ThreadSleepUntil": "process_bt_threads.h",
+    "BT_ThreadSleep": "process_bt_threads.h",
+    "BT_ThreadYield": "process_bt_threads.h",
+    "BT_CreateMutex": "process_bt_mutex.h",
+    "BT_PendMutex": "process_bt_mutex.h",
+    "BT_ReleaseMutex": "process_bt_mutex.h",
+    "BT_ReleaseMutexFromISR": "process_bt_mutex.h",
+    "BT_GetProcessHandle": "process_bt_process.h",
+    "BT_GetProcessThreadList": "process_bt_process.h",
+    "BT_InitialiseKernelModules": "module_bt_module_init.h",
+    "BT_kEnterCritical": "bt_kernel.h",
+    "BT_kExitCritical": "bt_kernel.h",
+    "BT_RegisterBlockDevice": "devman_bt_block.h",
+    "BT_BlockRead": "devman_bt_block.h",
+    "BT_BlockWrite": "devman_bt_block.h",
+    "BT_CanSetBaudrate": "interfaces_bt_dev_if_can.h",
+    "BT_CanSetConfiguration": "interfaces_bt_dev_if_can.h",
+    "BT_CanGetConfiguration": "interfaces_bt_dev_if_can.h",
+    "BT_CanEnable": "interfaces_bt_dev_if_can.h",
+    "BT_CanDisable": "interfaces_bt_dev_if_can.h",
+    "BT_CanSendMessage": "interfaces_bt_dev_if_can.h",
+    "BT_CanReadMessage": "interfaces_bt_dev_if_can.h",
+    "BT_TimerSetConfiguration": "interfaces_bt_dev_if_timer.h",
+    "BT_TimerGetConfiguration": "interfaces_bt_dev_if_timer.h",
+    "BT_TaskletSchedule": "interrupts_bt_tasklets.h",
+    "BT_TaskletHighSchedule": "interrupts_bt_tasklets.h",
+    "BT_OpenSoftIRQ": "interrupts_bt_softirq.h",
+    "BT_RaiseSoftIRQ": "interrupts_bt_softirq.h",
+    "BT_RaiseSoftIRQFromISR": "interrupts_bt_softirq.h",
+    "BT_DeviceRegister": "fs_bt_devfs.h",
+    "bt_kvprintf": "lib_printf.h",
+    "bt_printf": "lib_printf.h",
+    "bt_putc": "lib_putc.h",
+    "BT_GetStandardHandle": "lib_putc.h",
+    "BT_SetStandardHandle": "lib_putc.h",
+    "BT_kPrint": "syslog_bt_printk.h",
+    "BT_kStopScheduler": "bt_kernel.h",
+    "BT_GetBlockGeometry": "devman_bt_block.h",
+    "BT_BlockGetInode": "devman_bt_block.h",
+    "BT_SpiSetBaudrate": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiSetConfiguration": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiGetConfiguration": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiEnable": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiDisable": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiWrite": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiRead": "interfaces_bt_dev_if_spi.h",
+    "struct _BT_IF_FS { BT_HANDLE": "interfaces_bt_if_fs.h",
+    "BT_I2CSetClockrate": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CSetConfiguration": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CGetConfiguration": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CEnable": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CDisable": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CStart": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CSendAddress": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CGetData": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CSendData": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CSendNack": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CSendAck": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CGetAck": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CStop": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CWrite": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2CRead": "interfaces_bt_dev_if_i2c.h",
+    "BT_CharDeviceFlush": "interfaces_bt_if_chardev.h",
+    "BT_EnableInterrupts": "interrupts_bt_interrupts.h",
+    "BT_DisableInterrupts": "interrupts_bt_interrupts.h",
+    "BT_ReadDir": "fs_bt_dir.h",
+    "BT_ReadInode": "fs_bt_inode.h",
+    "BT_Read": "fs_bt_file.h",
+    "BT_Write": "fs_bt_file.h",
+    "BT_GetC": "fs_bt_file.h",
+    "BT_PutC": "fs_bt_file.h",
+    "BT_Seek": "fs_bt_file.h",
+    "BT_Tell": "fs_bt_file.h",
+    "BT_GetInodeName": "fs_bt_devfs.h",
+    "BT_RegisterFilesystem": "fs_bt_fs.h",
+    "BT_Open": "fs_bt_fs.h",
+    "BT_Mount": "fs_bt_fs.h",
+    "BT_OpenDir": "fs_bt_fs.h",
+    "BT_GetInode": "fs_bt_fs.h",
+    "BT_GetLongLE": "lib_getmem.h",
+    "BT_GetShortLE": "lib_getmem.h",
+    "BT_EnumerateVolumes": "volumes_bt_volume.h",
+    "BT_VolumeRead": "volumes_bt_volume.h",
+    "BT_VolumeWrite": "volumes_bt_volume.h",
+    "BT_kRecursiveMutexCreate": "bt_kernel.h",
+    "BT_kMutexPendRecursive": "bt_kernel.h",
+    "BT_kMutexReleaseRecursive": "bt_kernel.h",
+    "BT_kQueueCreate": "bt_kernel.h",
+    "BT_kQueueDestroy": "bt_kernel.h",
+    "BT_kQueueSend": "bt_kernel.h",
+    "BT_kQueueSendFromISR": "bt_kernel.h",
+    "BT_kQueueSendToFront": "bt_kernel.h",
+    "BT_kQueueSendToBack": "bt_kernel.h",
+    "BT_kQueueReceive": "bt_kernel.h",
+    "BT_kQueueReceiveFromISR": "bt_kernel.h",
+    "BT_kQueueMessagesWaiting": "bt_kernel.h",
+    "= ALIGN": "bitthunder.lds.h",
+    "= __sdata_start +": "bitthunder.lds.h",
+    "= __sdata2_start +": "bitthunder.lds.h",
+    "BT_CreateQueue": "process_bt_queue.h",
+    "BT_QueueSend": "process_bt_queue.h",
+    "BT_QueueSendFromISR": "process_bt_queue.h",
+    "BT_QueueSendToBack": "process_bt_queue.h",
+    "BT_QueueSendToFront": "process_bt_queue.h",
+    "BT_QueueReceive": "process_bt_queue.h",
+    "BT_QueueReceiveFromISR": "process_bt_queue.h",
+    "BT_QueueMessagesWaiting": "process_bt_queue.h",
+    "BT_PendMutexRecursive": "process_bt_mutex.h",
+    "BT_ReleaseMutexRecursive": "process_bt_mutex.h",
+    "BT_StopSystemTimer": "timers_bt_timers.h",
+    "BT_GetTotalDevicesByType": "devman_bt_device.h",
+    "BT_DEVICE BT_GetDeviceByType": "devman_bt_device.h",
+    "BT_RESOURCE BT_GetDeviceResource": "devman_bt_device.h",
+    "BT_RESOURCE BT_GetResource": "devman_bt_resource.h",
+    "BT_I2C_RegisterBusWithID": "devman_bt_i2c.h",
+    "{ BT_HANDLE": "interfaces_bt_if_fs.h",
+    "struct _BT_DEV_IF_PWM { BT_ERROR": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmStart": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmStop": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmSetConfiguration": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmGetConfiguration": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmGetPeriodCount": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmSetFrequency": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmGetFrequency": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmGetDutyCylce": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmSetDutyCycle": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmGetDeadTime": "interfaces_bt_dev_if_pwm.h",
+    "BT_PwmSetDeadTime": "interfaces_bt_dev_if_pwm.h",
+    "struct _BT_DEV_IF_ADC { BT_ERROR": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcStart": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcStop": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcSetConfiguration": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcGetConfiguration": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcRegisterCallback": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcUnregisterCallback": "interfaces_bt_dev_if_adc.h",
+    "BT_AdcRead": "interfaces_bt_dev_if_adc.h",
+    "struct _BT_DEV_IF_RTC { BT_ERROR": "interfaces_bt_dev_if_rtc.h",
+    "BT_GetCoreID": "interfaces_bt_if_cpu.h",
+    "BT_GetTotalCores": "interfaces_bt_if_cpu.h",
+    "BT_BootCore": "interfaces_bt_if_cpu.h",
+    "BT_DCacheEnable": "interfaces_bt_if_cpu.h",
+    "BT_DCacheDisable": "interfaces_bt_if_cpu.h",
+    "BT_DCacheFlush": "interfaces_bt_if_cpu.h",
+    "BT_DCacheInvalidate": "interfaces_bt_if_cpu.h",
+    "BT_ICacheEnable": "interfaces_bt_if_cpu.h",
+    "BT_ICacheDisable": "interfaces_bt_if_cpu.h",
+    "BT_ICacheInvalidate": "interfaces_bt_if_cpu.h",
+    "BT_I2C_FUNC_SMBUS_WRITE_BYTE_DATA) BT_I2C_FUNC_SMBUS_WRITE_WORD_DATA) BT_I2C_FUNC_SMBUS_WRITE_BLOCK_DATA) BT_I2C_FUNC_SMBUS_WRITE_I2C_BLOCK) BT_I2C_FUNC_SMBUS_BYTE | \\ BT_I2C_FUNC_SMBUS_BYTE_DATA | \\ BT_I2C_FUNC_SMBUS_WORD_DATA | \\ BT_I2C_FUNC_SMBUS_PROC_CALL | \\ BT_I2C_FUNC_SMBUS_WRITE_BLOCK_DATA | \\ BT_I2C_FUNC_SMBUS_I2C_BLOCK | \\ BT_I2C_FUNC_SMBUS_PEC) BT_u32": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2C_Transfer": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2C_MasterSend": "interfaces_bt_dev_if_i2c.h",
+    "BT_I2C_MasterReceive": "interfaces_bt_dev_if_i2c.h",
+    "BT_CalculateClockDivider": "helpers_bt_clkdiv.h",
+    "BT_GetS": "fs_bt_file.h",
+    "bt_lwip_netif_init": "net_bt_lwip.h",
+    "bt_lwip_process": "net_bt_lwip.h",
+    "ulCapabilites;\t\t\t BT_ERROR": "net_bt_net.h",
+    "BT_RegisterNetworkInterface": "net_bt_net.h",
+    "accept": "net_bt_sockets.h",
+    "bind": "net_bt_sockets.h",
+    "shutdown": "net_bt_sockets.h",
+    "getpeername": "net_bt_sockets.h",
+    "getsockname": "net_bt_sockets.h",
+    "getsockopt": "net_bt_sockets.h",
+    "setsockopt": "net_bt_sockets.h",
+    "close": "net_bt_sockets.h",
+    "connect": "net_bt_sockets.h",
+    "listen": "net_bt_sockets.h",
+    "recv": "net_bt_sockets.h",
+    "read": "net_bt_sockets.h",
+    "send": "net_bt_sockets.h",
+    "socket": "net_bt_sockets.h",
+    "write": "net_bt_sockets.h",
+    "ioctl": "net_bt_sockets.h",
+    "fcntl": "net_bt_sockets.h",
+    "BT_RTCSetTime": "rtc_bt_rtc.h",
+    "BT_RTCGetTime": "rtc_bt_rtc.h",
+    "bcd2bin": "lib_bcd.h",
+    "bin2bcd": "lib_bcd.h",
+    "int": "shell_bt_shell.h",
+    "BT_ShellCommand": "shell_bt_shell.h",
+    "BT_ShellScript": "shell_bt_shell.h",
+    "BT_CreateProcess": "process_bt_process.h",
+    "bt_task BT_GetProcessTask": "process_bt_process.h",
+    "bt_vm_init": "mm_bt_vm.h",
+    "bt_vm_map bt_vm_create": "mm_bt_vm.h",
+    "bt_vm_destroy": "mm_bt_vm.h",
+    "bt_vm_map bt_vm_get_kernel_map": "mm_bt_vm.h",
+    "bt_vm_translate": "mm_bt_vm.h",
+    "bt_vm_map_region": "mm_bt_vm.h",
+    "bt_vm_unmap_region": "mm_bt_vm.h",
+    "bt_vm_allocate": "mm_bt_vm.h",
+    "bt_vm_free": "mm_bt_vm.h",
+    "bt_pgd_t bt_mmu_newmap": "mm_bt_vm.h",
+    "void bt_mmu_terminate": "mm_bt_vm.h",
+    "void bt_mmu_switch": "mm_bt_vm.h",
+    "void bt_mmu_switch_ttb": "mm_bt_vm.h",
+    "void bt_mmu_flush_tlb": "mm_bt_vm.h",
+    "bt_paddr_t bt_mmu_extract": "mm_bt_vm.h",
+    "void bt_mmu_init": "mm_bt_vm.h",
+    "void bt_mmu_killmap": "mm_bt_vm.h",
+    "int bt_mmu_map": "mm_bt_vm.h",
+    "bt_pgd_t bt_mmu_get_kernel_pgd": "mm_bt_vm.h",
+    "bt_ioremap": "mm_bt_ioremap.h",
+    "bt_initialise_pages": "mm_bt_page.h",
+    "bt_initialise_pages_second_stage": "mm_bt_page.h",
+    "bt_page_alloc": "mm_bt_page.h",
+    "bt_page_free": "mm_bt_page.h",
+    "bt_initialise_slab": "mm_slab.h",
+    "bt_initialise_slab_second_stage": "mm_slab.h",
+    "BT_CacheInit": "mm_slab.h",
+    "BT_CacheAlloc": "mm_slab.h",
+    "BT_CacheFree": "mm_slab.h",
+    "BT_Flush": "fs_bt_file.h",
+    "bt_cpu_to_le64": "lib_getmem.h",
+    "bt_cpu_to_le32": "lib_getmem.h",
+    "bt_cpu_to_le16": "lib_getmem.h",
+    "bt_le64_to_cpu": "lib_getmem.h",
+    "bt_le32_to_cpu": "lib_getmem.h",
+    "bt_le16_to_cpu": "lib_getmem.h",
+    "bt_cpu_to_be64": "lib_getmem.h",
+    "bt_cpu_to_be32": "lib_getmem.h",
+    "bt_cpu_to_be16": "lib_getmem.h",
+    "bt_be64_to_cpu": "lib_getmem.h",
+    "bt_be32_to_cpu": "lib_getmem.h",
+    "bt_be16_to_cpu": "lib_getmem.h",
+    "BT_Shell": "shell_bt_shell.h",
+    "BT_ShellSetEnv": "shell_bt_env.h",
+    "BT_ShellGetEnv": "shell_bt_env.h",
+    "BT_ShellGetStarredEnv": "shell_bt_env.h",
+    "bt_get_kernel_params": "bt_kernel.h",
+    "BT_GetThreadTag": "process_bt_threads.h",
+    "BT_SetThreadTag": "process_bt_threads.h",
+    "BT_GetKernelProcessHandle": "process_bt_process.h",
+    "BT_GetParentProcessHandle": "process_bt_process.h",
+    "BT_GetProcessTime": "process_bt_process.h",
+    "BT_GetTotalProcesses": "process_bt_process.h",
+    "BT_AllocFileDescriptor": "process_bt_process.h",
+    "BT_FreeFileDescriptor": "process_bt_process.h",
+    "BT_SetFileDescriptor": "process_bt_process.h",
+    "BT_GetFileDescriptor": "process_bt_process.h",
+    "BT_SetProcessFileDescriptor": "process_bt_process.h",
+    "BT_GetProcessFileDescriptor": "process_bt_process.h",
+    "bt_process_init": "process_bt_process.h",
+    "BT_SetGlobalTimerHandle": "timers_bt_timers.h",
+    "BT_GetGlobalTimer": "timers_bt_timers.h",
+    "BT_GetGlobalTimerRate": "timers_bt_timers.h",
+    "bt_mmu_set_section": "mm_bt_vm.h",
+    "bt_iounmap": "mm_bt_ioremap.h",
+    "bt_page_info": "mm_bt_page.h",
+    "bt_initialise_coherent_pages": "mm_bt_page.h",
+    "bt_page_alloc_aligned": "mm_bt_page.h",
+    "bt_page_reserve": "mm_bt_page.h",
+    "bt_page_alloc_coherent": "mm_bt_page.h",
+    "bt_page_free_coherent": "mm_bt_page.h",
+    "bt_page_reserve_coherent": "mm_bt_page.h",
+    "bt_slab_info": "mm_slab.h",
+    "BT_DEVICE    BT_GetDeviceByType": "devman_bt_device.h",
+    "BT_RESOURCE  BT_GetDeviceResource": "devman_bt_device.h",
+    "mtd_erase_callback": "devman_bt_mtd.h",
+    "BT_MTD_RegisterDevice": "devman_bt_mtd.h",
+    "BT_MTD_Erase": "devman_bt_mtd.h",
+    "BT_MTD_Read": "devman_bt_mtd.h",
+    "BT_MTD_Write": "devman_bt_mtd.h",
+    "BT_MTD_GetUserInfo": "devman_bt_mtd.h",
+    "BT_I2C_RegisterBus": "devman_bt_i2c.h",
+    "BT_I2C_GetBusByID": "devman_bt_i2c.h",
+    "BT_I2C_GetBusObject": "devman_bt_i2c.h",
+    "BT_GetTotalIntegratedDriversByType": "devman_bt_devman.h",
+    "BT_GetIntegratedDriverByType": "devman_bt_devman.h",
+    "eType;\t\t\t\t\t\t\t union { BT_HANDLE": "devman_bt_driver.h",
+    "BT_SpiRegisterMaster": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiMessageInit": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiMessageAddTail": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiTransferDel": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiSetup": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiSync": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiBusLock": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiBusUnlock": "interfaces_bt_dev_if_spi.h",
+    "BT_SpiWriteThenRead": "interfaces_bt_dev_if_spi.h",
+    "struct _BT_DEV_IF_QEI { BT_ERROR": "interfaces_bt_dev_if_qei.h",
+    "BT_QEISetConfiguration": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIGetConfiguration": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIGetIndexCount": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIGetPosition": "interfaces_bt_dev_if_qei.h",
+    "BT_QEISetMaximumPosition": "interfaces_bt_dev_if_qei.h",
+    "BT_QEISetPositionComparator": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIGetVelocity": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIEnableInterrupt": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIDisableInterrupt": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIClearInterrupt": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIRegisterCallback": "interfaces_bt_dev_if_qei.h",
+    "BT_QEIUnregisterCallback": "interfaces_bt_dev_if_qei.h",
+    "struct _BT_DEV_IF_MCPWM { BT_ERROR": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmStart": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmStop": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmSetConfiguration": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmGetConfiguration": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmGetChannelConfig": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmSetChannelConfig": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmGetChannelPulsewidth": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmSetChannelPulsewidth": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_MCPwmSetDCModePattern": "interfaces_bt_dev_if_mcpwm.h",
+    "BT_DCacheFlushLine": "interfaces_bt_if_cpu.h",
+    "BT_DCacheFlushRange": "interfaces_bt_if_cpu.h",
+    "BT_DCacheInvalidateLine": "interfaces_bt_if_cpu.h",
+    "BT_DCacheInvalidateRange": "interfaces_bt_if_cpu.h",
+    "BT_i8 ": "interfaces_bt_dev_if_irq.h",
+    "struct _BT_DEV_IF_GTIMER { BT_u32": "interfaces_bt_dev_if_gtimer.h",
+    "ulCapabilities;\t\t\t BT_ERROR": "interfaces_bt_dev_if_emac.h",
+    "struct _BT_DEV_IF_MII { BT_u16": "interfaces_bt_dev_if_emac.h",
+    "struct BT_DEV_IF_PHY { BT_ERROR": "interfaces_bt_dev_if_emac.h",
+    "BT_SetInterruptLabel": "interrupts_bt_interrupts.h",
+    "BT_i8 BT_GetInterruptLabel": "interrupts_bt_interrupts.h",
+    "BT_InterruptRegistered": "interrupts_bt_interrupts.h",
+    "BT_GetInterruptCount": "interrupts_bt_interrupts.h",
+    "mask = BT_BIT_MASK": "helpers_bt_bitops.h",
+    "p =": "helpers_bt_bitops.h",
+    "1UL &": "helpers_bt_bitops.h",
+    "BT_EOF": "fs_bt_file.h",
+    "BT_GetModeFlags": "fs_bt_fs.h",
+    "BT_MkDir": "fs_bt_fs.h",
+    "BT_RmDir": "fs_bt_fs.h",
+    "BT_Remove": "fs_bt_fs.h",
+    "BT_Unlink": "fs_bt_fs.h",
+    "BT_Rename": "fs_bt_fs.h",
+    "BT_GetCwd": "fs_bt_fs.h",
+    "BT_ChDir": "fs_bt_fs.h",
+    "bt_lwip_netif_up": "net_bt_lwip.h",
+    "bt_lwip_netif_down": "net_bt_lwip.h",
+    "bt_lwip_netif_set_addr": "net_bt_lwip.h",
+    "bt_lwip_netif_get_addr": "net_bt_lwip.h",
+    "bt_lwip_netif_dhcp_done": "net_bt_lwip.h",
+    "bt_lwip_netif_get_hostname": "net_bt_lwip.h",
+    "BT_isNetworkingReady": "net_bt_net.h",
+    "BT_GetNetif": "net_bt_net.h",
+    "BT_NetifGetMacAddress": "net_bt_net.h",
+    "BT_NetifSetMacAddress": "net_bt_net.h",
+    "BT_NetifSetAddress": "net_bt_net.h",
+    "BT_NetifGetAddress": "net_bt_net.h",
+    "BT_StartNetif": "net_bt_net.h",
+    "BT_StopNetif": "net_bt_net.h",
+    "BT_NetifGetHostname": "net_bt_net.h",
+    "BT_RegisterMiiBus": "net_bt_phy.h",
+    "BT_ConnectPHY": "net_bt_phy.h",
+    "bt_phy_read": "net_bt_phy.h",
+    "bt_phy_write": "net_bt_phy.h",
+    "bt_phy_generic_init": "net_bt_phy.h",
+    "bt_phy_generic_read_status": "net_bt_phy.h",
+    "closesocket": "net_bt_sockets.h",
+    "bt_of_irq_count": "of_bt_of_irq.h",
+    "bt_of_irq_to_resource_table": "of_bt_of_irq.h",
+    "void bt_of_get_fdt": "of_bt_of.h",
+    "bt_device_node bt_of_node_get": "of_bt_of.h",
+    "bt_of_node_put": "of_bt_of.h",
+    "bt_device_node bt_of_get_parent": "of_bt_of.h",
+    "bt_device_property bt_of_find_property": "of_bt_of.h",
+    "void bt_of_get_property": "of_bt_of.h",
+    "bt_of_n_addr_cells": "of_bt_of.h",
+    "bt_of_n_size_cells": "of_bt_of.h",
+    "bt_of_can_translate_address": "of_bt_of.h",
+    "bt_of_address_to_resource": "of_bt_of.h",
+    "BT_be32 bt_of_get_address": "of_bt_of.h",
+    "bt_of_is_compatible": "of_bt_of.h",
+    "bt_device_node bt_of_find_node_by_path": "of_bt_of.h",
+    "bt_device_node bt_of_find_node_by_phandle": "of_bt_of.h",
+    "bt_of_integrated_probe": "of_bt_of.h",
+    "bt_of_integrated_populate": "of_bt_of.h",
+    "bt_of_integrated_populate_device": "of_bt_of.h",
+    "bt_of_unflatten_device_tree": "of_bt_of.h",
+    "bt_of_init": "of_bt_of.h",
+    "inline BT_u64 bt_of_read_number": "of_bt_of.h",
+    "struct bt_device_node bt_of_get_bootlogger": "of_bt_of.h",
+    "bt_device_node bt_of_integrated_get_node": "of_bt_of.h",
+    "bt_of_i2c_populate_device": "of_bt_of.h",
+    "bt_of_spi_populate_device": "of_bt_of.h",
+    "void bt_of_get_mac_address": "of_bt_of.h",
+    "bt_device_node bt_of_mdio_get_node": "of_bt_of.h",
+    "bt_of_mdio_populate_device": "of_bt_of.h",
+    "BT_RTCRegisterDevice": "rtc_bt_rtc.h",
+    "bt_fprintf": "lib_printf.h",
+    "bt_sprintf": "lib_printf.h",
+    "BT_SetStdin": "lib_putc.h",
+    "BT_GetStdin": "lib_putc.h",
+    "BT_SetStdout": "lib_putc.h",
+    "BT_GetStdout": "lib_putc.h",
+    "BT_SetStderr": "lib_putc.h",
+    "BT_GetStderr": "lib_putc.h",
+    "bt_getc": "lib_putc.h",
+    "bt_fgetc": "lib_putc.h",
+    "bt_fputc": "lib_putc.h",
+    "bt_sys_yield": "syscall_bt_syscall.h",
+    "bt_sys_getpid": "syscall_bt_syscall.h",
+    "bt_sys_open": "syscall_bt_syscall.h",
+    "bt_sys_close": "syscall_bt_syscall.h",
+    "bt_sys_read": "syscall_bt_syscall.h",
+    "bt_sys_write": "syscall_bt_syscall.h",
+    "bt_sys_klog": "syscall_bt_syscall.h",
+    "bt_sys_sleep": "syscall_bt_syscall.h",
+    "bt_sys_gpioset": "syscall_bt_syscall.h",
+    "BT_ShellCreate": "shell_bt_shell.h",
+    "BT_ShellDestroy": "shell_bt_shell.h",
+    "BT_ShellGetStdout": "shell_bt_shell.h",
+    "BT_ShellGetStdin": "shell_bt_shell.h",
+    "char BT_ShellGetPrompt": "shell_bt_shell.h",
+    "BT_ShellUpdatePrompt": "shell_bt_shell.h",
+    "BT_ShellGetFlags": "shell_bt_shell.h",
+    "BT_ShellGetNextEnv": "shell_bt_env.h",
+    "BT_ExecImageFile": "loader_bt_loader.h",
+    "bt_page_pool_init": "mm_bt_page.h",
+    "bt_page_pool_alloc": "mm_bt_page.h",
+    "bt_page_pool_free": "mm_bt_page.h",
+    "bt_page_pool_attach": "mm_bt_page.h",
+    "bt_page_pool_reserve": "mm_bt_page.h",
+    "struct _BT_DEV_IF_DAC { BT_ERROR": "interfaces_bt_dev_if_dac.h",
+    "BT_DacStart": "interfaces_bt_dev_if_dac.h",
+    "BT_DacStop": "interfaces_bt_dev_if_dac.h",
+    "BT_DacSetConfiguration": "interfaces_bt_dev_if_dac.h",
+    "BT_DacGetConfiguration": "interfaces_bt_dev_if_dac.h",
+    "BT_DacRegisterCallback": "interfaces_bt_dev_if_dac.h",
+    "BT_DacUnregisterCallback": "interfaces_bt_dev_if_dac.h",
+    "BT_DacWrite": "interfaces_bt_dev_if_dac.h",
+    "BT_GetTotalNetworkInterfaces": "net_bt_net.h",
+    "BT_GetNetifFromHandle": "net_bt_net.h",
+    "BT_GetNetifByIndex": "net_bt_net.h",
+    "BT_NetifConfigureLink": "net_bt_net.h",
+    "BT_NetifRestartLink": "net_bt_net.h",
+    "BT_NetifGetLinkState": "net_bt_net.h",
+    "bt_netif_adjust_link": "net_bt_net.h",
+    "BT_CreateMux": "lib_multiplexer.h",
+    "BT_MuxOpen": "lib_multiplexer.h",
+    "BT_MuxAttach": "lib_multiplexer.h"
   }
 }
