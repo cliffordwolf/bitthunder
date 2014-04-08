@@ -2976,7 +2976,7 @@
         {
           "type": "BT_FN_THREAD_ENTRY",
           "name": "pfnStartRoutine",
-          "comment": "p"
+          "comment": "Pointer to executable code where this process will start."
         },
         {
           "type": "const BT_i8 *",
